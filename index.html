@@ -6,9 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, Papers and Scissors game</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    <div class="container">
+        <div class="img-container">
+            <img class="options" id="rock" src="Rock.png" />
+            <img class="options" id="paper" src="Paper.png" />
+            <img class="options" id="scissors" src="Scissors.png" />
+        </div>
+        <div class="results">
+            <h3 class="roundWinner">Please select Rock, Paper or Scissors</h3>
+            <h4 class="playerScore">Player Score: 0</h4>
+            <h4 class="cpuScore">CPU Score: 0</h4>
+            <h4 class="drawScore">Draws: 0</h4>
+        </div>
+        <div class="alert-container">
+            <div class="alert">
+                <h3 class="alert-text"></h3>
+                <h3 class="alert-button">OK</h3>
+            </div>
+        </div>
+    </div>
     <script src="javascript.js"></script>
 </body>
 
